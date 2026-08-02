@@ -8,6 +8,12 @@ import articleRewriter from '../assets/article_rewritter.png';
 import aiEssay from '../assets/ai_essay.png';
 import extractTextFromImage from '../assets/extract_text_from.png';
 import aiPoem from '../assets/ai_poem.png';
+import aiStory from '../assets/ai_story.png';
+import paraphrase from '../assets/paraphrase.png';
+import checkPlag from '../assets/check_plag.png';
+import habitTracker from '../assets/habit_tracker.png';
+import smartPrinter from '../assets/smart_printer.png';
+
 // import aiHumanizer from '../assets/ai_humanizer.png';
 
 import imageToText from '../assets/image_to_text.png';
@@ -37,6 +43,39 @@ export const projectsList: Project[] = [
   //   playstoreLink: "https://play.google.com/store/apps/details?id=com.editpad.aitext.humanizer&pcampaignid=web_share",
   // },
 
+  {
+    id: 16,//-------------------------------------------------- Done ------------------------------------------
+    title: "Plagiarism Checker",
+    logo: checkPlag,
+    rating: "4.1",
+    downloads: "10k+",
+    description: "Plagiarism Checker App Free is an online tool designed to help you check plagiarism automatically.",
+    tags: ["Flutter", "Dart", "RESTAPI", "Hive", "RiverPod", "AdMob", "MethodChannel", "In-App-Purchase"],
+    playstoreLink: "https://play.google.com/store/apps/details?id=com.check.plagiarism&pcampaignid=web_share",
+    appstoreLink: "https://apps.apple.com/us/app/check-plagiarism-humanizer/id1615757881"
+  },
+  {
+    id: 15,//-------------------------------------------------- Done ------------------------------------------
+    title: "Paraphrase Tool",
+    logo: paraphrase,
+    rating: "4.1",
+    downloads: "50k+",
+    description: "The Paraphrase Tool - Rewrite AI lets you paraphrase content using advanced AI technology.",
+    tags: ["Flutter", "Dart", "RESTAPI", "Hive", "RiverPod", "AdMob", "MethodChannel", "In-App-Purchase"],
+    playstoreLink: "https://play.google.com/store/apps/details?id=com.enzipe.parafrasear.textos&pcampaignid=web_share",
+    appstoreLink: "https://apps.apple.com/us/app/paraphrasing-texts/id1666461786"
+  },
+  {
+    id: 14,//-------------------------------------------------- Done ------------------------------------------
+    title: "AI Story Generator",
+    logo: aiStory,
+    rating: "4.1",
+    downloads: "100k+",
+    description: "The AI story generator app is designed to write attractive and original stories automatically. It uses AI algorithms and vast datasets which makes our AI story maker app to write creative stories.",
+    tags: ["Flutter", "Dart", "RESTAPI", "Hive", "RiverPod", "AdMob", "MethodChannel", "In-App-Purchase"],
+    playstoreLink: "https://play.google.com/store/apps/details?id=com.editpad.aistorygenertor&pcampaignid=web_share",
+    appstoreLink: "https://apps.apple.com/us/app/ai-story-generator-ai-base/id6478205258"
+  },
   {
     id: 13,//-------------------------------------------------- Done ------------------------------------------
     title: "AI Essay Writer",
@@ -146,6 +185,34 @@ export const projectsList: Project[] = [
     tags: ["Flutter", "Dart", "Google Maps", "Hive Db", "PolyLines", "OneSignal",],
     playstoreLink: "https://play.google.com/store/apps/details?id=com.holosoftinc.offmaxlogistics&pcampaignid=web_share",
     appstoreLink: "https://apps.apple.com/us/app/off-max-driver/id1663428708"
+  },
+  //
+  //
+  //--------------------------------------------------------- HEHEHHEHE -----------------------------------------------
+
+  {
+    id: 14,
+    title: "Smart Printer - Mobile Print",
+    logo: smartPrinter,
+    rating: "4.1",
+    downloads: "500K+",
+
+    description: "Transform your mobile device into a powerful smart printer with our versatile app! Smart Printer - Mobile Print lets you print photos from phone",
+    tags: ["Flutter", "MLKit OCR", "Hive Db", "RevenueCat", "OpenAI API", ""],
+    playstoreLink: "https://play.google.com/store/apps/details?id=com.smart.printer.print.photos.documents.printing.pictures&pcampaignid=web_share",
+    appstoreLink: "https://apps.apple.com/us/app/smart-printer-print-app/id6633430288"
+  },
+  {
+    id: 13,
+    title: "Habit Tracker - Daily Habits",
+    logo: habitTracker,
+    rating: "4.9",
+    downloads: "50K+",
+
+    description: "Habit Tracker helps you build habits, manage daily tasks, and organize your routine with clarity and consistency. This all-in-one app lets you plan habits, set reminders, track progress, and stay focused on your daily goals.",
+    tags: ["Flutter", "MLKit OCR", "Hive Db", "RevenueCat", "OpenAI API", ""],
+    playstoreLink: "https://play.google.com/store/apps/details?id=com.habit.tracker.daily.goal.reminder&pcampaignid=web_share",
+    appstoreLink: "https://apps.apple.com/us/app/habit-tracker-daily-planner/id6459055567"
   },
   {
     id: 3,
