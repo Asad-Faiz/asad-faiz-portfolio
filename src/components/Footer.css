@@ -58,6 +58,8 @@
   text-decoration: none;
   font-size: 0.9rem;
   transition: color 0.2s ease;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .footer-column a:hover {
@@ -80,5 +82,12 @@
   }
   .footer-links {
     gap: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-links {
+    flex-direction: column;
+    gap: 1.5rem;
   }
 }
