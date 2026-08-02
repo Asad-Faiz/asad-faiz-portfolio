@@ -5,9 +5,13 @@ import excelLogo from '../assets/excel_converter_preview.png';
 import aichatbotlogo from '../assets/Ai_Chat_bot.png';
 import fontkeren from '../assets/font_keren.png';
 import articleRewriter from '../assets/article_rewritter.png';
-import repharser from '../assets/repharaser.png';
+import aiEssay from '../assets/ai_essay.png';
 import extractTextFromImage from '../assets/extract_text_from.png';
-import aiHumanizer from '../assets/ai_humanizer.png';
+import aiPoem from '../assets/ai_poem.png';
+// import aiHumanizer from '../assets/ai_humanizer.png';
+
+import imageToText from '../assets/image_to_text.png';
+import aiWritter from '../assets/ai_writter.png';
 
 export interface Project {
   id: number;
@@ -22,18 +26,52 @@ export interface Project {
 }
 
 export const projectsList: Project[] = [
+  // {
+  //   id: 10,
+  //   title: "AI Humanizer & Detector",
+  //   logo: aiHumanizer,
+  //   rating: "4.8",
+  //   downloads: "100k+",
+  //   description: "Use AI Humanizer & Detector App to Detect and Humanize AI content of GPT, Claude, Copilot, Gemini, and any other AI generator",
+  //   tags: ["Flutter", "Dart", "RESTAPI", "Hive", "RiverPod", "AdMob", "MethodChannel", "In-App-Purchase"],
+  //   playstoreLink: "https://play.google.com/store/apps/details?id=com.editpad.aitext.humanizer&pcampaignid=web_share",
+  // },
+
   {
-    id: 10,
-    title: "AI Humanizer & Detector",
-    logo: aiHumanizer,
+    id: 13,//-------------------------------------------------- Done ------------------------------------------
+    title: "AI Essay Writer",
+    logo: aiEssay,
     rating: "4.8",
-    downloads: "100k+",
-    description: "Use AI Humanizer & Detector App to Detect and Humanize AI content of GPT, Claude, Copilot, Gemini, and any other AI generator",
+    downloads: "10k+",
+    description: "Write smarter with the help of our fast AI Writer App. It is a one-pack solution to help you write emails, stories, poems, and paragraphs",
     tags: ["Flutter", "Dart", "RESTAPI", "Hive", "RiverPod", "AdMob", "MethodChannel", "In-App-Purchase"],
-    playstoreLink: "https://play.google.com/store/apps/details?id=com.editpad.aitext.humanizer&pcampaignid=web_share",
+    playstoreLink: "https://play.google.com/store/apps/details?id=com.app.essaywriter&pcampaignid=web_share",
+    appstoreLink: "https://apps.apple.com/us/app/ai-essay-writer-essay-ai/id6502164613"
   },
   {
-    id: 10,
+    id: 12,//-------------------------------------------------- Done ------------------------------------------
+    title: "AI Writer",
+    logo: aiWritter,
+    rating: "4.8",
+    downloads: "10k+",
+    description: "Write smarter with the help of our fast AI Writer App. It is a one-pack solution to help you write emails, stories, poems, and paragraphs",
+    tags: ["Flutter", "Dart", "RESTAPI", "Hive", "RiverPod", "AdMob", "MethodChannel", "In-App-Purchase"],
+    playstoreLink: "https://play.google.com/store/apps/details?id=com.writein.ai_writer&pcampaignid=web_share",
+    appstoreLink: "https://apps.apple.com/us/app/ai-writer-essay-story-email/id6739533362"
+  },
+  {
+    id: 10,//-------------------------------------------------- Done ------------------------------------------
+    title: "Image to Text: Picture To Text",
+    logo: imageToText,
+    rating: "4.8",
+    downloads: "100k+",
+    description: "Convert photos, screenshots, scanned documents and handwritten notes into editable text using our advanced ocr scanner app. This smart Picture To Text combines accurate text scanner ocr technology with fast image processing to help users save time and improve productivity.",
+    tags: ["Flutter", "Dart", "RESTAPI", "Hive", "RiverPod", "AdMob", "MethodChannel", "In-App-Purchase"],
+    playstoreLink: "https://play.google.com/store/apps/details?id=com.prepost.imagetotext&pcampaignid=web_share",
+    appstoreLink: "https://apps.apple.com/us/app/image-to-text-ocr-app/id6467405518"
+  },
+  {
+    id: 10, //android 
     title: "Extract Text From Image",
     logo: extractTextFromImage,
     rating: "4.8",
@@ -43,24 +81,26 @@ export const projectsList: Project[] = [
     playstoreLink: "https://play.google.com/store/apps/details?id=com.extracttextfromimage.textscanner&pcampaignid=web_share",
   },
   {
-    id: 9,
-    title: "Paraphrase Tool - Ai Writer",
-    logo: repharser,
-    rating: "4.5",
+    id: 9, //-------------------------------------------------- Done ------------------------------------------
+    title: "AI Poem Generator",
+    logo: aiPoem,
+    rating: "4.2",
     downloads: "50K+",
-    description: "Our Paraphrasing & Rephrase Sentences app helps you Rewrite your Text with a Plagiarism Checker also Grammar Checker quickly on the go. Rewording app can Paraphraser all types of Content, such as Blogs, Emails, and Assignments, easily on your phone using our Paraphrase app. The Ai Paraphrase Tool can Rephrase your Paragraph, Essay, and Story",
-    tags: ["Flutter", "Dart", "RESTAPI", "ToStore", "RiverPod", "AdMob", "Firebase", "In-App-Purchase"],
-    playstoreLink: "https://play.google.com/store/apps/details?id=com.allmath.paraphrase&pcampaignid=web_share",
+    description: "Use our AI Poem Generator app to create poems in seconds! Generate poems for any occasion, just enter a keyword or topic and let our AI write a beautiful poem for you",
+    tags: ["Flutter", "Dart", "RESTAPI", "Hive", "RiverPod", "AdMob", "Firebase", "In-App-Purchase"],
+    playstoreLink: "https://play.google.com/store/apps/details?id=com.ai.poem.generator.poem_generator&pcampaignid=web_share",
+    appstoreLink: "https://apps.apple.com/us/app/ai-poem-generator/id6738043431"
   },
   {
-    id: 8,
-    title: "Article Rewriter - Paraphraser",
+    id: 8,//-------------------------------------------------- Done ------------------------------------------
+    title: "Article Rewriter & Paraphraser",
     logo: articleRewriter,
-    rating: "4.0",
-    downloads: "10k",
-    description: "Use our Rewrite AI and paraphrase app to rephrase text instantly, correct spelling & grammar, check plagiarism, and generate summary of any content with rewrite article app. ",
+    rating: "4.1",
+    downloads: "50k+",
+    description: "n AI writing tool that helps you rewrite, paraphrase, and rephrase sentences with better clarity and style.Use our rephrase sentences app to instantly rewrite articles or improve any text within seconds. It is a simple, fast, and accurate rewriting app to refine existing content pieces",
     tags: ["Flutter", "Dart", "RESTAPI", "ToStore", "RiverPod", "AdMob", "Firebase", "In-App-Purchase"],
-    playstoreLink: "https://play.google.com/store/apps/details?id=com.enzipe.article.rewriter&pcampaignid=web_share",
+    playstoreLink: "https://play.google.com/store/apps/details?id=com.spinner.articlerewriter&pcampaignid=web_share",
+    appstoreLink: "https://apps.apple.com/us/app/article-rewriter-spinner/id6467834409"
   },
   {
     id: 7,
@@ -83,6 +123,8 @@ export const projectsList: Project[] = [
     playstoreLink: "https://play.google.com/store/apps/details?id=com.open.ai.chat.bot.ask.questions&pcampaignid=web_share",
     appstoreLink: "https://apps.apple.com/us/app/ai-chat-smart-ai-assistant/id6449362725"
   },
+
+  //-------------------------------------------------- OLD  ------------------------------------------
   {
     id: 1,
     title: "Evendo — Digital Travel Guide",
