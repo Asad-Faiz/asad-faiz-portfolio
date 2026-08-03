@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
           <h3>Asad Faiz</h3>
           <p>Professional Flutter Developer specializing in high-performance iOS, Android, and macOS cross-platform systems.</p>
           <p style={{ marginTop: '1rem', fontSize: '0.9rem', opacity: 0.8 }}>
-            📍 Faisalabad, Punjab (Relocating to Lahore / Islamabad)
+            📍 Lahore, Punjab (Relocating to Islamabad)
           </p>
         </div>
         <div className="footer-links">
