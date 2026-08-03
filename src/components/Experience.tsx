@@ -4,7 +4,7 @@ import './Experience.css';
 interface Job {
   company: string;
   role: string;
-  location: string;
+  // location: string;
   period: string;
   bullets: string[];
 }
@@ -12,34 +12,34 @@ interface Job {
 export const Experience: React.FC = () => {
   const jobs: Job[] = [
     {
-      company: "HOLOSOFT",
+      company: "Enzipe",
       role: "Flutter Developer (Android / iOS)",
-      location: "Onsite | Faisalabad, Punjab",
-      period: "Feb 2025 - Present",
+      // location: "Onsite | Faisalabad, Punjab",
+      period: "Nov 2025 - Present",
       bullets: [
-        "Gained comprehensive hands-on experience in supporting real-world service mobile applications, focusing on continuous improvement and adherence to robust development standards.",
-        "Collaborated effectively with experienced development teams and cross-functional stakeholders (including designers and testers) to implement best practices and ensure high-quality software delivery."
+        "Support and continuously improve a real-world, production service mobile application, following robust development and release standards",
+        "Collaborate closely with cross-functional stakeholders — designers, QA testers and senior developers — to implement engineering best practices and ensure high-quality, on-time delivery."
       ]
     },
     {
       company: "ECLIXTECH",
       role: "Flutter Developer (Android / iOS / macOS)",
-      location: "Onsite | Faisalabad, Punjab",
-      period: "Jan 2024 - Feb 2025",
+      // location: "Onsite | Faisalabad, Punjab",
+      period: "Jun 2024 - Nov 2025",
       bullets: [
         "Drove the maintenance and performance optimization of published mobile applications across Android, iOS, and Mac platforms, consistently enhancing user satisfaction.",
         "Worked with experienced Developers to understand and implement best practices in mobile development."
       ]
     },
     {
-      company: "RIFTCODES",
-      role: "Flutter Developer (Android)",
-      location: "Onsite | Faisalabad, Punjab",
-      period: "March 2023 - Dec 2023",
+      company: "HoloSoft Inc.",
+      role: "Flutter Developer (Android/ iOS)",
+      // location: "Onsite | Faisalabad, Punjab",
+      period: "Jun 2023 - May 2024",
       bullets: [
-        "Developed and Published Mobile Applications on Google Playstore.",
-        "Participated in code reviews and contributed with other developers to improve Applications.",
-        "Refactored and debugged code to enhance performance and improve application stability."
+        "Developed and published mobile applications to the Google Play Store from initial build through release",
+        "Participated in peer code reviews, contributing to shared code quality standards across the team.",
+        "Refactored and debugged existing codebases to improve performance and application stability."
       ]
     }
   ];
@@ -69,7 +69,7 @@ export const Experience: React.FC = () => {
                   </div>
                   <div className="job-meta">
                     <span className="job-period">{job.period}</span>
-                    <span className="job-location">{job.location}</span>
+                    {/* <span className="job-location">{job.location}</span> */}
                   </div>
                 </div>
                 <ul className="job-bullets">

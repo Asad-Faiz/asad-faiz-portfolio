@@ -177,4 +177,34 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .hero-actions {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2.1rem;
+    line-height: 1.2;
+  }
+  .hero-section {
+    padding: 5rem 1rem 2rem;
+  }
+  .hero-actions {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .btn {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .card-body {
+    padding: 1rem;
+  }
+  .code-block {
+    font-size: 0.75rem;
+  }
 }

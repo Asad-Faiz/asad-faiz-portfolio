@@ -32,14 +32,19 @@ export const Hero: React.FC = () => {
             <div className="card-body">
               <pre className="code-block">
                 <code>
-{`class FlutterDeveloper {
-  final String name = 'Muhammad Asad Faiz';
-  final String role = 'Flutter Developer';
-  final List<String> platforms = ['Android', 'iOS', 'macOS'];
+                  {`class FlutterDeveloper {
+  final String name = 'Asad Faiz';
+  final String role = 'Flutter Dev';
+  final List<String> platforms = [
+    'Android', 'iOS', 'macOS'
+  ];
   
   void buildAmazingApps() {
-    final tools = ['Bloc', 'GetX', 'RestApi', 'Hive'];
-    print('Delivering high-quality software!');
+    final tools = [
+      'Bloc', 'RiverPod',
+      'RestApi', 'Hive'
+    ];
+    print('Delivering quality!');
   }
 }`}
                 </code>

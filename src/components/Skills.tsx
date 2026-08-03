@@ -10,15 +10,15 @@ export const Skills: React.FC = () => {
   const skillGroups: SkillGroup[] = [
     {
       category: "Core Mobile Development",
-      items: ["Flutter", "Dart", "GetX", "BLoC", "Provider State Management", "Localization", "OneSignal Notification"]
+      items: ["Flutter", "Dart", "GetX", "BLoC", "RiverPod", "Provider State Management", "Localization", "OneSignal Notification"]
     },
     {
       category: "APIs & Databases",
       items: ["RestApi (http / dio)", "Hive", "SqfLite", "Google Maps Api", "Firebase", "Firebase Auth"]
     },
     {
-      category: "Web & Integrations",
-      items: ["React.js", "JavaScript", "Git", "Payment Integration", "Google Ads", "Firebase Crashlytics"]
+      category: "Integrations",
+      items: ["Git", "Payment Integration", "Google Ads", "Firebase Crashlytics"]
     }
   ];
 
